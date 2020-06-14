@@ -1,0 +1,75 @@
+.comp1{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+/border: solid;
+}
+.left1 {
+  background: #F2F2F2;
+  height: 900px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 4fr 1fr 1fr 1fr;
+  grid-gap: 2em;
+  padding: 2em;
+  border: solid;
+}
+.left1 > div {
+  background: #CCCCCC;
+  border: solid;
+}
+.center1 {
+  border:solid;
+  background: #F2F2F2;
+  display: grid;
+  grid-template-rows: 5fr 1fr 1fr 1fr 1fr;
+  grid-gap: 2em;
+  padding: 2em;
+}
+.center1 > div {
+  background: #CCCCCC;
+  border: solid;
+}
+  .right1 {
+    border:solid;
+    background: #F2F2F2;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 4fr;
+    grid-gap: 2em;
+    padding: 2em;
+  }
+    .right1 > div {
+      background: #CCCCCC;
+      border: solid;
+    }
+    .comp2{
+      border: solid;
+      height: 200px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 60px;
+      padding: 2em;
+      background: #808080;
+    }
+    .comp2 > div{
+      border: solid;
+      background: #E5E5E5;
+    }
+    .comp3{
+      border: solid;
+      height: 900px;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-gap: 2em;
+      padding: 2em;
+      background: #CCCCCC;
+    }
+      .comp3 > div{
+        border: solid;
+        background: #E5E5E5;
+}
+.b1{
+  grid-row: 1/7;
+}
+.b2{
+grid-row: 7/10;
+}
